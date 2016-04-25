@@ -47,6 +47,6 @@ public class Empleado
     @Override
     public String toString()
     {
-        return  "id='" + id  + ", nombre='" + nombre +", sueldo=" + sueldo ;
+        return  "id='" + id  + ", nombre= '" + nombre +", sueldo=" + sueldo ;
     }
 }

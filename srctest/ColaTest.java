@@ -53,7 +53,6 @@ public class ColaTest
         Pila<Empleado> pila=new Pila<Empleado>();
         Cola<Empleado> cola=new Cola<Empleado>();
 
-
         Archivo archivo=new Archivo("archivo/datos.csv");
         for(String linea:archivo.traerArchivo())
         {
